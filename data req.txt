@@ -1,0 +1,90 @@
+data req
+Data Requirements
+Variable name Function Data type Reason
+$isValid To determine if
+email
+entered by user
+is valid
+Boolean As email entered is
+either valid(true)
+or not valid(false)
+$atIndex As a form of
+validation
+to make sure the
+email entered has
+
+String To locate position of
+@ sign
+$domain To do a length check
+on the domain of
+the email
+String To assign the whole
+email to a variable
+$local To assign the part of
+the email before the
+@ sign to a variable
+string To help validate the
+first part of the
+email
+$localLen Counts the number
+of characters in the
+local
+t f th il
+string To validate the
+length of the
+$localLen
+$domainLen Counts the number
+of
+characters in
+the domain
+string To validate the
+length
+of the domain
+$password Assigning the user’s string To allow for
+validation
+44
+input for a
+password to
+a variable
+to the password.
+$cpassword Assigning the user’s
+input to confirm
+password to a
+variable
+String To allow for validation
+of the password
+$passwordErr To output a
+message
+when validation of
+password isn’t met
+string If there is an error
+then it outputs a
+message
+$confirmpErr To output a
+message
+when
+confirmed
+password is
+check against
+password
+String To output an error
+when confirmed
+password doesn’t
+match password
+$nameErr To check if the field
+“name” is filled
+string To make sure there is
+a present value
+$name Assigns the input to
+the field “name”
+string To assign a value
+to the variable
+name
+$surnameErr To check if the field
+“surname” is filled
+string To make sure there
+is a present value
+$surname Assigns the input to
+the field “surname”
+string To assign a value to
+the variable name

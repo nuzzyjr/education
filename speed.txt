@@ -1,0 +1,112 @@
+Description of the proposed system
+We are all on a fitness journey in one way or another. With life’s hectic schedule, it’s easy to
+lose track of where you are and where you want to be regarding your fitness. No matter
+whether you are trying to lose weight, put on mass, or maintain where you are, tracking
+fitness progress is an essential piece of your ongoing success. I have been asked by the
+owner of ToKa Fitness to develop a digital system that will:
+● provide information about fitness training
+● provide information on healthy living to help customers improve their own health
+and fitness
+● provide access to digital content to support customers with their training
+● provide access to digital content on healthy lifestyle
+● encourage existing customers who have access to digital devices to use more of the
+services provided by ToKa Fitness.
+ToKa fitness would like to help its customer track every single workout, all gains, and all
+food consumed in their fitness journey. These are some of the reasons mentioned during
+the interviews.
+• People have extremely busy time schedules and it is hard for them to find slots to fit
+in running or other forms of workout.
+• Lack of motivation is another significant reason.
+• Finding people with similar goals is extremely difficult, and mostly people end up
+with inactive or overactive company, if found at all, which does not serve as an
+effective motivation booster. Not being able to track your progress is a huge
+roadblock in many cases.
+• No proper schedule to be followed, sometimes you have the time but don’t know
+how much and how to go about it.
+• What’s more, after a formidable exercise, people would get lazy or bored without
+any rewards or recognition. Expensive tracking and other health monitoring gadgets
+leave the interested people with either a big credit or without any equipment.
+• Complex user interfaces and systems.
+• No real data on the systems, only web fed data.
+• Very little or no data analysis, as to how many calories burnt, how much time to run
+to improve stamina.
+• No simple helpful application.
+For those who log and track their progress regularly, maybe using paper or some way of
+recording, by using some form of electronic tracking system they would achieve some of
+the following aims:
+• Makes it more likely to reach and surpass their goal.
+• Allows them to be more efficient in time and workouts.
+• Lends accountability to themselves and their goals.
+• Allows for easier modifications and shows when and where changes need to be
+made.
+• It can be motivating and reinforcing to remind them why you are doing what you
+are.
+• Keeps you committed to their plan.
+This project lends itself to a computational approach, partly because of the convenience of
+tracking details on the website after a workout (removing the need to carry pen and paper,
+and allowing users to track the details immediately, reducing the risk of errors), and partly
+because a computational solution will allow automatic progress tracking as it can
+automatically calculate and display your progress from the previous input data. This will
+make users’ gym progress much easier and provide them with details of their progress,
+which would be very difficult and time-consuming to recalculate themselves every week.
+The key performance indicators (KPIs) and user acceptance criteria for the proposed ToKa
+Fitness offers personal training sessions and advice on fitness training and healthy living to
+its customers and would like a website for their specific requirements. ToKa Fitness’s
+specific requirements are that the proposed solution:
+• Must have a membership system that allows the user to access extra content.
+• Must allow clients to add new content without touching the code.
+• Must be compatible with various devices, such as a desktop, a tablet and a
+smartphone.
+• Should have different page layouts based on the user (e.g. client can add content,
+but members can only watch content).
+• The layout should be simple and easy to navigate, so information should be diluted
+across the page (no clutter to confuse the user). Also, text information should be
+balanced with images and other media.
+• Could use external services to provide content (e.g. use YouTube to display free
+videos).
+• Could add advertisements to monetise the free content without making the user
+pay.
+The system was split into sub systems that interact among each other or with the user.
+The interaction between the various components will be elaborated on in later
+sections. The system can be seen to have six components that work in unison to
+produce the results that help the user the best results.
+• Mobile interface
+• Web interface
+• Database
+• Location data acquisition
+• Accelerometer data collection and analysis
+14
+• Profile monitoring
+For the purpose of this project we will produce the first prototype, which will be the web
+interface.
+The website can be accessed via a mobile device or a desktop computer and will have the
+following functionality.
+Non-functional requirement is used to specify the criteria forsystem operation, which
+should be in contrast to functional requirement that define specific behaviours and
+function. In order to clarify software quality attributes, we will use the FURPS model. FURPS
+is an acronym for functionality, usability, reliability, performance and supportability, which
+is founded at Hewlett-Packard and elaborated by Grady and Caswell.
+Usability is used to determine the ease of using and learning for human-made objects.
+First, we use PHP, JavaScript and SQL as our developing platform, which is accessible and
+widely used. Secondly, to make our software and website easy to use, user interface design
+would play a very important role. User design should make information more accessible for
+the user, such as a help option can be found at once when the customer encounters some
+problems, a traceable history for users to review their progress in previous periods in their
+account
+Reliability is defined by the system’s availability and how long it will take to recover from a
+failure. It is very important to our program, since our system is based on a huge amount of
+data. If failure occurs, it always accrues loss of data. In order to maintain high reliability, we
+should try our best to keep a low appearance of error in our system, and, also, if a failure
+is encountered, the system should have the ability to figure it out, send it to the
+programmer and then reset giving a reasonable explanation to t users. Performance is
+closely related to how fast our system can perform. As the user is training, they may want
+to know calories burnt
+Supportability includes a variety of elements, such as maintainability, sustainability,
+testability and so on. As requirements above, we should make our program easier to use,
+not only for users, but also for people who want to modify it or add new functionality to it.
+In order to make sure that code can be fixed and reused easily, we should separate the
+whole system into several independent functions. In terms of several independent parts,
+people can find the main problem more quickly and rewrite the part with a problem
+without changing others, which will save a lot of time and manual work. Based on the
+above abstract information a more discrete set of requirements can be tabulated as
+follows
