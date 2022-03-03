@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <!-- Bootstrap Morph -->
+    <link href="styles.css" rel="stylesheet"/>
     <link href="bootstrap-5.0.2-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="bootstrap-5.0.2-dist/css/bootstrap-theme.css" rel="stylesheet" />
 </head>
@@ -15,7 +16,8 @@
         <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-        paAWDPP
+            <button class="btn btn-primary">Button</button>  
+
         </div>
         <div class="col-md-6"></div>
         </div>
