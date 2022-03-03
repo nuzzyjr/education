@@ -1,0 +1,124 @@
+ToKa Fitness has commissioned my software development company to develop a digital
+system. ToKa Fitness offers personal training sessions and advice on fitness training and
+healthy living to its customers and would like a website for their specific requirements.
+ToKa Fitness specific requirements are that the proposed solution:
+● has free access with some accessibility to services
+● customer section for paid content to access full services
+● accessibility features for users with sight loss
+● link to ‘social media’ features
+● ability to view graphs and daily statistics for monitoring
+● visualisation of the data to help users easily understand patterns.
+The target user group is adults, male and females. Due to the legal and ethical nature of
+websites, it might be difficult for under 18s to follow the exercise and enter the correct
+details and follow the food and recipes correctly. To comply with age restrictions and
+guidelines, clear advice will be given to reduce health issues or injuries.
+The website will be accessed via mobile devices and a computer and have compatibility
+across different devices, Android and iOS. It is important that the website is easy to use
+with on screen guidance and prompts so that the user experience is excellent in all areas of
+the website to promote company image, for example using website appropriate highquality visual assets and content. All areas of the website will comply with relevant legal
+regulations and guidelines.
+The customer area will be secure and accessed via a password and payment made in a
+secure platform. This will comply with legal requirements. The privacy and security of user
+data is important for each member to have access to their area via a secure login.
+Each customer will be able to customise workout and eating plans and generate a report
+on their progress for specific periods, and the level of detail of instructions in a fitness
+training plan will vary to allow the customer to meet their identified goal.
+All links to external sources will take consideration of copyright and intellectual property
+and licensing requirements.
+Functional Requirements
+No. Features Priority Justification
+1 Users are able to sign up
+and create profiles with a
+username and password
+HIGH
+This will allow many different features to
+work, such as the booking process, as
+this will allow the tutor to know who has
+booked the session and will allow the
+user to access the videos they have paid
+for
+on any device as cookies cannot transfer
+on all the devices the person has.
+2
+Users are able to log in to
+their own profile HIGH
+Important that the user can view their
+own profile details.
+3 Users can view the
+dashboard
+HIGH This will allow the tutor to upload their
+timetable so that students can choose
+which slot they want without waiting for
+the tutor to confirm if they are free or
+not.
+24
+4 The system should contain
+information about the
+calories, weight, carbs
+intake, fat intake, exercise
+regime
+HIGH This will ensure that client will trust the
+organisation and make the website
+more reliable.
+5 Users are able to pay
+online
+for membership
+MEDIUM This will allow the payment process to
+be much easier and less manual, which
+means there can be no altercation in the
+student not paying as it will all be
+recorded.
+6 The system should be able
+to send payment
+confirmation to the user
+MEDIUM This will act as a receipt for the payment
+to the gym user and client.
+7 System should have user
+form authentication
+HIGH This is to ensure that the user does have
+the email address and verifies the ID.
+8 System should send a
+confirmation email once
+signed up
+LOW This will make sure that the client has all
+the details for signing up.
+9 New system should have a
+blog or forum
+MEDIUM This will allow the user to raise questions
+and communicate with others gym
+members.
+10 Historical data to show
+trends
+MEDIUM Important to generate a report that allow
+the gym user to view historical data and
+demonstrate progression.
+12 External interface HIGH The gym user should be able to view the
+website on any device that allow them to
+see all the relevant information and
+perform any functionality.
+Non-functional Requirements
+No. Features Priority Justification
+1 The system should be reliable HIGH This will mean that it is more
+trusted, which will mean more
+people will use the service.
+2 The system should be accessible by
+everyone
+HIGH This will mean that anyone can
+access the service, which will
+mean that the service will be
+advertised to more people.
+3 The system should be secure HIGH This will help users trust the
+service as they will be using their
+payment information on the
+website.
+4 The system should be available at all
+times
+HIGH If this was not the case it would
+mean less people would buy the
+service as they cannot access it
+5 PHP sessions should make the
+website customised to the user
+MEDIUM This will make it more customised
+to the user as it could be used for
+a faster login and it would be
+more personalised to the user. 
